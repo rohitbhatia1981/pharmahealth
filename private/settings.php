@@ -47,7 +47,9 @@ define("ADMIN_EMAIL1","info@2fabdesigns.net");
 define("ADMIN_EMAIL2","info@2fabdesigns.net");
 
 define("ADMIN_FORM_EMAIL","rohitbhatia1@gmail.com");
-define("ADMIN_NOTIFICATION","notification@pharma-health.co.uk");
+//define("ADMIN_NOTIFICATION","notification@pharma-health.co.uk");
+
+define("ADMIN_NOTIFICATION","info@hidemos.com");
 
 define("ADMIN_GENERAL_EMAIL","info@pharmahealth.co.uk");
 
