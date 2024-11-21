@@ -1,4 +1,4 @@
-<?php
+<?php 
 $params = array(
 	"testmode"   => "on",
 	"private_live_key" => "sk_live_KrFqYNYsFgPkuZrlGMKyEWox",

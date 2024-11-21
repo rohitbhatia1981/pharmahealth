@@ -1,5 +1,5 @@
 <?php
-// -----------------------       F O L D E R   N A M E S         -----------------
+// -----------------------       F O L D E R   N A M E         -----------------
 
 define("FOLDER_ADMIN","admin/");
 define("PATIENT_ADMIN","patient/account/");
