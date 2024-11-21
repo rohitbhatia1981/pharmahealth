@@ -1,0 +1,25 @@
+﻿S.No,Conditions,"Category (Your Symptoms: 2, Your medical history: 3, Medication History: 4",Question,"Answer Type (Single: 1, Multiple: 2, Free Text: 3)",Answer options,"Risk (Low: 1, Medium: 2, High: 3)",Ask Additional (option order comma seperated),Position,Tooltip,Tooltip content
+1,43,2,Have you been reviewed and/or investigated by your doctor for Nasal Congestion before?  ,1,Yes|No,"2,2","1,2",1,,
+2,43,2,"Which of the following symptoms are you currently experiencing?
+Please select all that apply. ",2,Frequent sneezing|Runny nose|Blocked nose|Itchy nostrils|Red/inflamed nostrils|Other,"2,2,2,2,2,2",6,2,,
+3,43,2,How long have you experienced the above symptoms for?,3,,,,3,,
+4,43,2,"Are you currently (or previously) experiencing any of the following symptoms? Yes or No
+Please select all that apply. ",2,"Runny nose from only one nostril|Green discharge|Pain or discharge from only one nostril|Persistent blood-stained discharge|Other
+","3,3,3,3,3",5,4,,
+5,43,2,What is your occupation?,3,,,,5,,
+6,43,2,Do you have any pets? ,1,Yes|No,"3,1",1,6,,
+7,43,3,Have you had a recent nasal/head injury in the past 4 weeks?,1,Yes|No,"1,1",,7,,
+8,43,3,Has your doctor diagnosed you with a deviated septum of the nose and/or have you ever had a nasal surgery? ,1,Yes|No,"3,1",1,8,,
+9,43,3,Do you or your family have a history of eczema or asthma? ,1,Yes|No,"2,1",1,9,,
+10,43,3,Have you been diagnosed with a liver and/or kidney condition? ,1,Yes|No,"2,1",1,10,,
+11,43,3,"Has your doctor diagnosed you with any other medical conditions or is there anything else we should know about your health? Are you waiting for any investigations, treatments or procedures for any recent conditions? ",1,Yes|No,"3,1",1,11,,
+12,43,4,"Have you taken the selected medication before, or are you currently taking any medications for Nasal Congestion? ",1,Yes|No,"3,1",1,12,,
+13,43,4,Have you ever had any allergic reaction or experienced side effects from the selected medications or from any other medications that you have tried before? ,1,Yes|No,"3,1",1,13,1,"i. The Patient Information Leaflet (PIL) that comes with your medicine will have a list of ingredients.
+i. A drug allergy is a response of the body's immune system to a medication; this is different to a side effect of a medication. Symptoms of an allergic reaction include itchy red eyes or skin rashes. Anaphylaxis is an extreme form of allergic reaction. It can cause swelling of the lips and tongue, breathing problems, collapse and loss of consciousness. "
+14,43,4,"Are you taking any prescription-only medicines, over-the-counter medicines, alternative medicines or recreational drugs? This includes regular and ‘when needed’ medications.",1,Yes|No,"3,1",1,14,1,i. Please note these can be supplied under many different brand names and forms. Look for the generic drug name on the package.
+15,43,4,Do you have any other known allergies?,1,Yes|No,"3,1",1,15,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,

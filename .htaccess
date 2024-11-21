@@ -1,0 +1,96 @@
+RewriteEngine On
+Options +FollowSymLinks
+
+
+#RewriteCond %{HTTP_HOST} ^pharmahealth.co.uk [NC] 
+#RewriteRule ^(.*)$ https://www.pharmahealth.co.uk/$1 [L,R=301]
+
+#RewriteCond %{HTTP_HOST} pharmahealth\.co.uk [NC]
+#RewriteCond %{SERVER_PORT} 80
+#RewriteRule ^(.*)$ https://www.pharmahealth.co.uk/$1 [R,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+ErrorDocument 404 /pharmahealth/pages/404.php
+
+RewriteRule  ^partner-pharmacy pages/pharmacy-listing.php [L,NC,END]
+
+
+#RewriteRule  ^admin admin/index.php [L,NC,END]
+
+
+RewriteRule ^pharmacy-be-our-partner pages/pharmacy.php [L,NC,END]
+
+
+RewriteRule  ^patient-how-it-works pages/patient-how-it-works.php [L,NC,END]
+RewriteRule  ^pharmacies-how-it-works pages/pharmacy-how-it-works.php [L,NC,END]
+RewriteRule  ^faqs-for-patients pages/faqs-for-patients.php [L,NC,END]
+RewriteRule  ^faqs-for-pharmacies pages/faqs-for-pharmacies.php [L,NC,END]
+RewriteRule  ^contact-us pages/contact-us.php [L,NC,END]
+
+RewriteRule  ^about-us pages/about-us.php [L,NC,END]
+RewriteRule  ^careers pages/careers.php [L,NC,END]
+RewriteRule  ^useful-links pages/useful-link.php [L,NC,END]
+
+RewriteRule  ^regulations pages/regulations.php [L,NC,END]
+RewriteRule  ^terms-and-conditions pages/terms-and-conditions.php [L,NC,END]
+RewriteRule  ^terms-of-sale pages/terms-of-sale.php [L,NC,END]
+RewriteRule  ^privacy-policy pages/privacy-policy.php [L,NC,END]
+RewriteRule  ^cookie-policy pages/cookie-policy.php [L,NC,END]
+
+RewriteRule  ^complaints-and-feedback pages/complaints.php [L,NC,END]
+RewriteRule  ^refunds-and-returns pages/refunds.php [L,NC,END]
+RewriteRule  ^payment pages/payments.php [L,NC,END]
+RewriteRule  ^repeat-medication pages/repeat-medication.php [L,NC,END]
+
+RewriteRule  ^pricing-policy pages/pricing-policy.php [L,NC,END]
+
+RewriteRule  ^treatments/hairloss treatments/tdetail.php [L,NC,END]
+
+
+
+<ifModule mod_gzip.c>
+  mod_gzip_on Yes
+  mod_gzip_dechunk Yes
+  mod_gzip_item_include file \.(html?|txt|css|js|php|pl)$
+  mod_gzip_item_include mime ^application/x-javascript.*
+  mod_gzip_item_include mime ^text/.*
+  mod_gzip_item_exclude rspheader ^Content-Encoding:.*gzip.*
+  mod_gzip_item_exclude mime ^image/.* 
+  mod_gzip_item_include handler ^cgi-script$
+</ifModule>
+
+# Leverage Browser Caching
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType image/jpg "access 1 year"
+  ExpiresByType image/webp "access 1 year"
+  ExpiresByType image/jpeg "access 1 year"
+  ExpiresByType image/gif "access 1 year"
+  ExpiresByType image/png "access 1 year"
+  ExpiresByType text/css "access 1 year"
+  ExpiresByType text/js "access 1 year"
+  ExpiresByType text/html "access 1 year"
+  ExpiresByType application/pdf "access 1 year"
+  ExpiresByType text/x-javascript "access 1 year"
+  ExpiresByType application/x-shockwave-flash "access 1 year"
+  ExpiresByType image/x-icon "access 1 year"
+  ExpiresDefault "access 1 year"
+</IfModule>
+
+<IfModule mod_headers.c>
+  <filesmatch "\.(ico|flv|jpg|jpeg|png|gif|css|swf|webp)$">
+  Header set Cache-Control "max-age=31536000 , public"
+  </filesmatch>
+  <filesmatch "\.(html|htm)$">
+  Header set Cache-Control "max-age=31536000 , private, must-revalidate"
+  </filesmatch>
+  <filesmatch "\.(pdf)$">
+  Header set Cache-Control "max-age=31536000 , public"
+  </filesmatch>
+  <filesmatch "\.(js)$">
+  Header set Cache-Control "max-age=31536000 , private"
+  </filesmatch>
+</IfModule>
+

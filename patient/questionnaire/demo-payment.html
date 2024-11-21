@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <style>
+        .card-label {
+            margin-bottom: 15px;
+        }
+        #card-icon {
+            position: absolute;
+            right: 10px;
+            top: 35px;
+            height: 30px;
+        }
+        .card-input {
+            position: relative;
+        }
+        input:focus {
+            outline: none;
+        }
+        .form-control {
+            border: 1px solid #ced4da;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="payment-tab-content">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card-label">
+                        <label for="cardholderName">Cardholder Name</label>
+                        <input type="text" class="form-control" value="<?php echo $rowSeller['s_name']?>" name="txtCCName" id="txtCCName" placeholder="" required>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card-label card-input">
+                        <label for="cardNumber">Card Number</label>
+                        <input type="tel" class="form-control" data-stripe="number" name="txtNumber" id="txtNumber" placeholder="" required>
+                        <img id="card-icon" src="" alt="Card Type">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card-label">
+                        <label for="expiryMonth">Expiry Month</label>
+                        <input id="expiryMonth" class="form-control" placeholder="MM" name="txtMM" min="1" max="12" data-stripe="exp_month" type="number" required>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card-label">
+                        <label for="expiryYear">Expiry Year</label>
+                        <input id="expiryYear" class="form-control" placeholder="YYYY" name="txtYY" data-stripe="exp_year" min="<?php echo date("Y") ?>" max="<?php echo date("Y")+30 ?>" type="number" required>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card-label">
+                        <label for="cvv">CVV</label>
+                        <input id="cvv" class="form-control" type="text" name="cvv" data-stripe="cvc" maxlength="4" required>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.payment/3.0.0/jquery.payment.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#txtNumber').payment('formatCardNumber');
+            $('#expiryMonth').payment('formatCardExpiry');
+            $('#expiryYear').payment('formatCardExpiry');
+            $('#cvv').payment('formatCardCVC');
+
+            $('#txtNumber').on('keyup change', function() {
+                var cardType = $.payment.cardType($(this).val());
+                var cardIcon = $('#card-icon');
+
+                if (cardType) {
+                    var cardIcons = {
+                        'visa': 'https://cdnjs.cloudflare.com/ajax/libs/paymentfont/1.1.2/svg/visa.svg',
+                        'mastercard': 'https://cdnjs.cloudflare.com/ajax/libs/paymentfont/1.1.2/svg/mastercard.svg',
+                        'amex': 'https://cdnjs.cloudflare.com/ajax/libs/paymentfont/1.1.2/svg/amex.svg',
+                        'discover': 'https://cdnjs.cloudflare.com/ajax/libs/paymentfont/1.1.2/svg/discover.svg'
+                    };
+                    cardIcon.attr('src', cardIcons[cardType] || '');
+                } else {
+                    cardIcon.attr('src', '');
+                }
+            });
+        });
+    </script>
+</body>
+</html>

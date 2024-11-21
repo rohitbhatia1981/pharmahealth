@@ -1,0 +1,20 @@
+﻿S.No,Conditions,"Category (Your Symptoms: 2, Your medical history: 3, Medication History: 4",Question,"Answer Type (Single: 1, Multiple: 2, Free Text: 3)",Answer options,"Risk (Low: 1, Medium: 2, High: 3)",Ask Additional (option order comma seperated),Position,Tooltip,Tooltip content
+1,23,2,Have you been reviewed and investigated by your doctor for Weight Loss before?  ,1,Yes|No,"2,1",1,1,,
+2,23,2,What motivates you to lose weight?,2,"To feel more confident in my appearance|To help improve a current illness|To be more healthy|To help to manage illness (eg. high blood pressure, diabetes)|None of the above","2,2,2,2,2",,2,,
+3,23,2,How much weight have you lost so far?,2,None|< 5kg|5-10kg|>10kg,"2,2,2,2",,3,,
+4,23,2,Have you tried any other weight loss programmes in the past such as dieting or exercise? ,1,Yes|No,"2,1",1,4,1,"This medication will not work alone; you need to modify your lifestyle as well. Exercising, eating a lower calorie diet and reducing alcohol are common ways of doing this."
+5,23,2,Do you do 3 or more hours of some form of moderate exercise per week? ,1,Yes|No,"2,1",,5,1,"It is recommended that most adults should do at least 150 minutes of moderate aerobic activity such as cycling or walking every week, and strength exercises on two or more days a week. "
+6,23,2,Have you ever suffered from an eating disorder such as anorexia nervosa or bulimia? ,1,Yes|No,"3,1",1,6,,
+7,23,3,Have you been investigated and/or diagnosed with any of the following? ,2,"Chronic malabsorption syndrome|Thyroid problems
+Cholestasis|Gallbladder|Bile duct|Pancreas disease
+Heart disease|High blood pressure|High cholesterol/lipids|Diabetes|If yes, please provide more information ","3,3,3,3,3,3,3,3,3,3,3",11,7,,
+8,23,3,Have you been diagnosed with a liver and/or kidney condition? ,1,Yes|No,"3,1",1,8,,
+9,23,3,"Has your doctor diagnosed you with any other medical conditions or is there anything else we should know about your health? Are you waiting for any investigations, treatments or procedures for any recent conditions? ",1,Yes|No,"3,1",1,9,,
+10,23,4,"Have you taken the selected medication before, or are you currently taking any medications for Weight Loss? ",1,Yes|No,"3,1",1,10,,
+11,23,4,Have you ever had any allergic reaction or experienced side effects to the selected medications or other medications that you have tried before? ,1,Yes|No,"3,1",1,11,1,"The Patient Information Leaflet (PIL) that comes with your medicine will have a list of ingredients.
+
+A drug allergy is a response of the body's immune system to a medication; this is different to a side effect of a medication. Symptoms of an allergic reaction include itchy red eyes or skin rashes. Anaphylaxis is an extreme form of allergic reaction. It can cause swelling of the lips and tongue, breathing problems, collapse and loss of consciousness. "
+12,23,4,"Are you taking any prescription-only medicines, over-the-counter medicines, alternative medicines or recreational drugs? This includes regular and ‘when needed’ medications. ",1,Yes|No,"3,1",1,12,1,Please note these can be supplied under many different brand names and forms. Look for the generic drug name on the package.
+13,23,4,Are you taking any of the following medications? ,2,"Anticoagulant drugs e.g. Warfarin|Contraceptive pills e.g. Microgynon|Antivirals e.g. Ritonavir, Saquinavir, Nelfinavir|Antidepressants e.g. Citalopram, Sertraline, Fluoxetine|Antiepileptics e.g. Carbamezapine|Benzodiazepines e.g. Diazepam
+Antipsychotics e.g. Lithium|Others including Ciclosporin, Levothyroxine, Iodine salts, Amiodarone, Acarbose , Fat soluble vitamins|if yes, Please state which medications you are taking or have taken, including the dose, length of treatment and the reason for taking it","3,3,3,3,3,3,3,3,3",9,13,,
+14,23,4,Do you have any other known allergies? ,1,Yes|No,"3,1",1,14,,

@@ -1,0 +1,22 @@
+﻿S.No,Conditions,"Category (Your Symptoms: 2, Your medical history: 3, Medication History: 4",Question,"Answer Type (Single: 1, Multiple: 2, Free Text: 3)",Answer options,"Risk (Low: 1, Medium: 2, High: 3)",Ask Additional (option order comma seperated),Position,Tooltip,Tooltip content
+1,65,2,Have you been reviewed and/or investigated by your doctor for Impetigo before?  ,1,Yes|No,"2,1",1,1,,
+2,65,2,Is your skin infection affecting more than one area of the body? ,1,Yes|No,"2,1",,2,,
+3,65,2,"Which part of the body is affected?
+Please select all that apply. ",2,Nose|Chin|Mouth|Cheek(s)|Hand|Wrist|Arm|Other ,"2,2,2,2,2,2,2,2",8,3,,
+4,65,2,How long have you had these symptoms for?,1,Less than a week|1-2 weeks|More than 2 weeks,"2,2,3",,4,,
+5,65,2,What symptoms are you currently experiencing?,2,"Small blisters that burst easily|Weeping, small sores, colourless or clear, yellowy liquid|Yellow/brown crusting|Red inflamed skin with a well-defined border|Other ","2,2,2,2,2",5,5,,
+6,65,3,Are you experiencing any of the following symptoms? ,2,"Spreading redness of the skin that is warm and tender to touch|A fever, high temperature or uncontrollable shaking ","3,2",,6,,
+7,65,3,In the last 3 months have you been treated for Impetigo or any other skin infection? ,1,Yes|No,"2,1",1,7,,
+8,65,3,"In the last one year, have you ever had any skin infections that led to you needing oral antibiotics or to being hospitalized? ",1,Yes|No,"2,1",1,8,,
+9,65,3,Do you have eczema or other skin conditions? ,1,Yes|No,"2,1",1,9,,
+10,65,3,Are you seeking treatment for a patch of eczema that is infected? ,1,Yes|No,"3,1",1,10,,
+11,65,3,Do you have any of the following conditions? Please select all that apply.,2,Diabetes|A history of MRSA infection on your skin|Rheumatoid arthritis|Leukaemia|HIV|Large blisters or burns|Other,"3,3,3,3,3,3,3",7,11,,
+12,65,3,Have you been diagnosed with a liver and/or kidney condition? ,1,Yes|No,"2,1",1,12,,
+13,65,3,"Has your doctor diagnosed you with any other medical conditions or is there anything else we should know about your health? Are you waiting for any investigations, treatments or procedures for any recent conditions? ",1,Yes|No,"3,1",1,13,,
+14,65,4,"Have you taken the selected medication before, or are you currently taking any medications for Impetigo? ",1,Yes|No,"2,1",1,14,,
+15,65,4,Have you ever had any allergic reaction or experienced side effects from the selected medications or from any other medications that you have tried before?,1,Yes|No,"3,1",1,15,1,"i. The Patient Information Leaflet (PIL) that comes with your medicine will have a list of ingredients.
+i. A drug allergy is a response of the body's immune system to a medication; this is different to a side effect of a medication. Symptoms of an allergic reaction include itchy red eyes or skin rashes. Anaphylaxis is an extreme form of allergic reaction. It can cause swelling of the lips and tongue, breathing problems, collapse and loss of consciousness. "
+16,65,4,"Are you taking any prescription-only medicines, over-the-counter medicines, alternative medicines or recreational drugs? This includes regular and ‘when needed’ medications.",1,Yes|No,"3,1",1,16,1,i. Please note these can be supplied under many different brand names and forms. Look for the generic drug name on the package.
+17,65,4,Do you have any other known allergies? ,1,Yes|No,"3,1",1,17,,
+,,,,,,,,,,
+,,,,,,,,,,

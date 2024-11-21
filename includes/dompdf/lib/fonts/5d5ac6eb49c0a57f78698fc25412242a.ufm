@@ -1,0 +1,93 @@
+StartFontMetrics 4.1
+Notice Converted by PHP-font-lib
+Comment https://github.com/PhenX/php-font-lib
+EncodingScheme FontSpecific
+Copyright © 2001 Microsoft Corporation. All rights reserved.
+FontName Raavi
+FontSubfamily Regular
+UniqueID Raavi Regular
+FullName Raavi Regular
+Version Version 1.06
+PostScriptName Raavi
+Designer Raghunath Joshi (Type Design Director), Apurva Joshi
+Description Raavi is an OpenType font for the Indic script- Gurmukhi. It is based on Unicode, contains TrueType outlines and has been designed for use as a UI font.
+FontDesignerURL http://www.ncst.ernet.in/~rkjoshi
+Weight Medium
+ItalicAngle 0
+IsFixedPitch false
+UnderlineThickness 31
+UnderlinePosition -156
+FontHeightOffset 0
+Ascender 1000
+Descender -680
+FontBBox -2 -178 889 828
+StartCharMetrics 70
+U 32 ; WX 313 ; N space ; G 3
+U 33 ; WX 313 ; N exclam ; G 4
+U 34 ; WX 451 ; N quotedbl ; G 5
+U 35 ; WX 782 ; N numbersign ; G 6
+U 37 ; WX 782 ; N percent ; G 7
+U 38 ; WX 730 ; N ampersand ; G 8
+U 39 ; WX 225 ; N quotesingle ; G 9
+U 40 ; WX 417 ; N parenleft ; G 10
+U 41 ; WX 417 ; N parenright ; G 11
+U 42 ; WX 525 ; N asterisk ; G 12
+U 43 ; WX 626 ; N plus ; G 13
+U 44 ; WX 273 ; N comma ; G 14
+U 45 ; WX 410 ; N hyphen ; G 15
+U 46 ; WX 273 ; N period ; G 16
+U 47 ; WX 626 ; N slash ; G 17
+U 48 ; WX 641 ; N zero ; G 18
+U 49 ; WX 417 ; N one ; G 19
+U 50 ; WX 561 ; N two ; G 20
+U 51 ; WX 573 ; N three ; G 21
+U 52 ; WX 573 ; N four ; G 22
+U 53 ; WX 573 ; N five ; G 23
+U 54 ; WX 658 ; N six ; G 24
+U 55 ; WX 573 ; N seven ; G 25
+U 56 ; WX 573 ; N eight ; G 26
+U 57 ; WX 658 ; N nine ; G 27
+U 58 ; WX 273 ; N colon ; G 28
+U 59 ; WX 273 ; N semicolon ; G 29
+U 60 ; WX 730 ; N less ; G 30
+U 61 ; WX 626 ; N equal ; G 31
+U 62 ; WX 730 ; N greater ; G 32
+U 63 ; WX 592 ; N question ; G 33
+U 64 ; WX 990 ; N at ; G 34
+U 91 ; WX 451 ; N bracketleft ; G 35
+U 92 ; WX 626 ; N backslash ; G 36
+U 93 ; WX 451 ; N bracketright ; G 37
+U 94 ; WX 574 ; N asciicircum ; G 38
+U 95 ; WX 543 ; N underscore ; G 39
+U 123 ; WX 561 ; N braceleft ; G 40
+U 124 ; WX 382 ; N bar ; G 41
+U 125 ; WX 561 ; N braceright ; G 42
+U 126 ; WX 730 ; N asciitilde ; G 43
+U 160 ; WX 313 ; N uni00A0 ; G 44
+U 173 ; WX 410 ; N uni00AD ; G 45
+U 215 ; WX 626 ; N multiply ; G 46
+U 247 ; WX 626 ; N divide ; G 47
+U 8192 ; WX 414 ; N uni2000 ; G 48
+U 8193 ; WX 828 ; N uni2001 ; G 49
+U 8194 ; WX 414 ; N uni2002 ; G 50
+U 8195 ; WX 828 ; N uni2003 ; G 51
+U 8196 ; WX 276 ; N uni2004 ; G 52
+U 8197 ; WX 207 ; N uni2005 ; G 53
+U 8198 ; WX 138 ; N uni2006 ; G 54
+U 8199 ; WX 138 ; N uni2007 ; G 55
+U 8200 ; WX 104 ; N uni2008 ; G 56
+U 8201 ; WX 166 ; N uni2009 ; G 57
+U 8202 ; WX 46 ; N uni200A ; G 58
+U 8208 ; WX 410 ; N uni2010 ; G 59
+U 8209 ; WX 410 ; N uni2011 ; G 60
+U 8210 ; WX 410 ; N figuredash ; G 61
+U 8211 ; WX 543 ; N endash ; G 62
+U 8212 ; WX 887 ; N emdash ; G 63
+U 8216 ; WX 313 ; N quoteleft ; G 64
+U 8217 ; WX 312 ; N quoteright ; G 65
+U 8230 ; WX 885 ; N ellipsis ; G 66
+U 8239 ; WX 166 ; N uni202F ; G 67
+U 8287 ; WX 207 ; N uni205F ; G 68
+U 9724 ; WX 244 ; N uni25FC ; G 69
+EndCharMetrics
+EndFontMetrics

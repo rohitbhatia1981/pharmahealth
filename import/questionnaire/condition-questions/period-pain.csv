@@ -1,0 +1,23 @@
+﻿S.No,Conditions,"Category (Your Symptoms: 2, Your medical history: 3, Medication History: 4",Question,"Answer Type (Single: 1, Multiple: 2, Free Text: 3)",Answer options,"Risk (Low: 1, Medium: 2, High: 3)",Ask Additional (option order comma seperated),Position,Tooltip,Tooltip content
+1,29,2,Have you been reviewed and/or investigated by your doctor for Period Pain before?     ,1,Yes|No,"3,2",1,1,,
+2,29,2,Have you always had painful periods since your periods first started? ,1,Yes|No,"3,1",1,2,,
+3,29,2,Do you experience any of the following symptoms? Please select all that apply to you.,2,Heavy periods|Bleeding or spotting in between periods|Unusual vaginal discharge|Period pain that requires use of painkillers|Lower abdomen pain (cramps)|Pain that spreads to your lower back or top of your legs|Pain that starts when your period starts (but may start up to a day before)|Pain that usually lasts 12-24 hours (but in some cases may last up to 2-3 days)|Other,"2,2,2,2,2,2,2,2,2",9,3,,
+4,29,2,"Do you suffer from any of the following (additional) symptoms during your period? Please select all that apply to you.
+",2,High temperature (fever)|Bleeding or spotting after sex|Pain during sex|Vaginal discharge|Sudden severe abdominal pain|Irregular periods|Pain between periods|Rectal Pain|A change in your usual pattern of pain e.g. longer lasting or more severe period pain|Other,"3,3,3,3,3,3,3,3,3,3",10,4,,
+5,29,3,Do you have any abnormal lumps or swellings in your genitals?,1,Yes|No,"3,1",1,5,,
+6,29,3,Are you up to date with your cervical smear (only applicable to those over 25 years old)? ,1,Yes|No,"1,2",,6,,
+7,29,3,Do you have asthma? ,1,Yes|No,"3,1",,7,1,"i.Some asthmatics are unable to take these medicines. If your breathing has ever worsened after taking ibuprofen or another anti-inflammatory drug, or you've been told not to, please do not proceed as it won't be safe to take Mefenamic Acid either. "
+8,29,3,Have you been investigated and/or diagnosed with any of the following conditions? Please select all the conditions that apply to you.         ,2,"Chronic obstructive pulmonary disorder (COPD)|Systemic lupus erythematosus|Heart conditions e.g. heart failure, stroke, heart attack|Ischaemic heart, peripheral arterial, cerebrovascular disease or left ventricular dysfunction|Blood disorder|High blood pressure|Oedema or dehydration|Epilepsy|Acute porphyria|Gastrointestinal ulceration, bleeding, perforation or peptic ulcers|Inflammatory bowel disease e.g. crohn’s disease or ulcerative colitis|Galactose intolerance, Lapp Lactase deficiency or glucose-galactose malabsorption|Other","3,3,3,3,3,3,3,3,3,3,3,3,3",13,8,,
+9,29,3,Have you been diagnosed with a liver and/or kidney condition? ,1,Yes|No,"3,1",1,9,,
+10,29,3,"Has your doctor diagnosed you with any other medical conditions or is there anything else we should know about your health? Are you waiting for any investigations, treatments or procedures for any recent conditions? ",1,Yes|No,"3,1",1,10,,
+11,29,4,"Have you taken the selected medication before, or are you currently taking any medications for Period Pain? ",1,Yes|No,"3,1",1,11,,
+12,29,4,Have you ever had any allergic reaction or experienced side effects from the selected medications or from any other medications that you have tried before?,1,Yes|No,"3,1",1,12,1,"i. The Patient Information Leaflet (PIL) that comes with your medicine will have a list of ingredients.
+i. A drug allergy is a response of the body's immune system to a medication; this is different to a side effect of a medication. Symptoms of an allergic reaction include itchy red eyes or skin rashes. Anaphylaxis is an extreme form of allergic reaction. It can cause swelling of the lips and tongue, breathing problems, collapse and loss of consciousness. "
+13,29,4,"Are you taking any prescription-only medicines, over-the-counter medicines, alternative medicines or recreational drugs? This includes regular and ‘when needed’ medications",1,Yes|No,"3,1",1,13,1,i. Please note these can be supplied under many different brand names and forms. Look for the generic drug name on the package.
+14,29,4,Do you have any other known allergies?,1,Yes|No,"3,1",1,14,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,

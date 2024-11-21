@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26" height="26" viewBox="0 0 26 26">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #0aadeb;
+      }
+    </style>
+  </defs>
+  <circle class="cls-1" cx="13.188" cy="13.094" r="12.656"/>
+  <image x="6" y="6" width="16" height="12" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAMCAYAAABr5z2BAAAAy0lEQVQokZ2SvQ4BURCFDxFRir/WWygsGq8iJCvxHF5AS6OSaLyC3hsQDQ1RiEKz+eTKislm7WKSO5k755yZzJ2bAfSj1SXlJG0VBr+aF/L/KuBLmkgKJN0l7eVG+PIMeNsFaAF1BxSAIlBKKNQz4msofmLOTYA1sACyMeK+EZ+BrsWd2xnCDMgbwtBgB6AdbeDcGFgZ4hSoAj4QhLkT0Iwb7xWUI0Ws3QDv0/vYi+u6jIiPQCdpS9FEBZgbcSNtxXHJGrABRqn/A/QA9tPiypepHAoAAAAASUVORK5CYII="/>
+</svg>

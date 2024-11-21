@@ -1,0 +1,15 @@
+﻿S.No,Conditions,"Category (Your Symptoms: 2, Your medical history: 3, Medication History: 4",Question,"Answer Type (Single: 1, Multiple: 2, Free Text: 3)",Answer options,"Risk (Low: 1, Medium: 2, High: 3)",Ask Additional (option order comma seperated),Position,Tooltip,Tooltip content
+1,44,2,Have you been reviewed and/or investigated by your doctor for Dandruff before?  ,1,Yes|No,"2,3",1,1,,
+2,44,2,How do you know you have a scalp condition i.e. Dandruff?,1,GP diagnosed it|Based on my symptoms,"3,3",,2,,
+3,44,2,How long have you had this condition for?,3,,,,3,,
+4,44,2,Are you currently experiencing a flare-up of your condition,1,Yes|No,"2,3",1,4,,
+5,44,2,"Do you currently (or previously) experience(d) any of the following symptoms? 
+Please select all that apply. ",2,Itchy scalp|Greasy or dry scales on the scalp|Yellowish to reddish scaly raised bumps along the hairline (in severe cases)|Other|None of the above,"2,2,3,3,2",5,5,,
+6,44,3,Have you been diagnosed with a liver and/or kidney condition?,1,Yes|No,"3,1",1,6,,
+7,44,3,"Has your doctor diagnosed you with any other medical conditions or is there anything else we should know about your health? Are you waiting for any investigations, treatments or procedures for any recent conditions? ",1,Yes|No,"3,1",1,7,1,"Please provide further details including any symptoms, investigations, diagnoses, treatments or procedures you are having or waiting for."
+8,44,4,"Have you taken the selected medication before, or are you currently taking (or have taken) any medications for Dandruff? ",1,Yes|No,"2,1",1,8,1,"Please state which medication you are taking or have taken, including the dose, length of treatment and whether it is/was effective."
+9,44,4,Have you ever had any allergic reaction or experienced side effects from the selected medications or from any other medications that you have tried before? ,1,Yes|No,"2,1",1,9,1,"The Patient Information Leaflet (PIL) that comes with your medicine will have a list of ingredients.
+
+A drug allergy is a response of the body's immune system to a medication; this is different to a side effect of a medication. Symptoms of an allergic reaction include itchy red eyes or skin rashes. Anaphylaxis is an extreme form of allergic reaction. It can cause swelling of the lips and tongue, breathing problems, collapse and loss of consciousness. "
+10,44,4,"Are you taking any prescription-only medicines, over-the-counter medicines, alternative medicines or recreational drugs? This includes regular and ‘when needed’ medications. ",1,Yes|No,"2,1",1,10,1,Please note these can be supplied under many different brand names and forms. Look for the generic drug name on the package.
+11,44,4,Do you have any other known allergies? ,1,Yes|No,"2,1",1,11,1,Please provide more details including information on symptoms you had and treatment you received.

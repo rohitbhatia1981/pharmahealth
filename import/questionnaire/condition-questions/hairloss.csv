@@ -1,0 +1,21 @@
+﻿S.No,Conditions,"Category (Your Symptoms: 2, Your medical history: 3, Medication History: 4",Question,"Answer Type (Single: 1, Multiple: 2, Free Text: 3)",Answer options,"Risk (Low: 1, Medium: 2, High: 3)",Ask Additional (option order comma seperated),Position,Tooltip,Tooltip content
+1,1,2,Have you been reviewed and/or investigated by your doctor for Hair Loss before?  ,1,Yes|No,"2,1",1,1,,
+2,1,2,Have you previously suffered from Hair Loss? ,1,Yes|No,"2,1",1,2,,
+3,1,2,Please select which of the images below best represents your Hair Loss,2,Temples only|Random Patches|Other Hair Loss Pattern|Complete,"3,3,3,1",,3,,
+4,1,2,Do you have sudden unexplained Hair Loss or gradual Hair Loss? ,1,Gradual|Sudden,"1,2",,4,,
+5,1,2,Do you have Hair Loss anywhere else on your body?,1,Yes|No,"3,1",1,5,,
+6,1,2,Could your Hair Loss be explained by any medication or illness? e.g. chemotherapy or dietary ,1,Yes|No,"3,1",1,6,,
+7,1,2,Have you experienced or been investigated and/or diagnosed with any of the following symptoms/conditions? ,2,"Scalp psoriasis|Scalp eczema|Ringworm (fungal infection)|Pain, itching, inflammation or rashes on your scalp|Dandruff|Other","3,3,3,3,3,3",6,7,,
+8,1,3,Have you ever been investigated/diagnosed with prostate disease (or cancer)?,1,Yes|No,"3,1",1,8,1,i. Symptoms of a prostate problem include: frequency of passing urine; poor stream; difficulty starting to pass urine; dribbling.
+9,1,3,Is your partner pregnant or trying to get pregnant in the next 12 months? ,1,Yes|No,"3,1",1,9,1,i. Finasteride/Propecia may be damaging to an unborn child i.e. it is teratogenicity. A reliable form of contraception (i.e. condoms) is essential in order to avoid pregnancy while taking Finasteride/Propecia. 
+10,1,3,Do you have any of the following medical conditions? Please select all that apply.,2,Anxiety|Depression|Panic disorders|Thoughts of self-harm or any suicidal thoughts|History of other mental health conditions|Diagnosed with or at risk of having male breast cancer| Uncontrolled high or low blood pressure|Other,"3,3,3,3,3,3,3,3",8,10,,
+11,1,3,Have you been diagnosed with a liver and/or kidney condition? ,1,Yes|No,"3,1",1,11,,
+12,1,3,"Has your doctor diagnosed you with any other medical conditions or is there anything else we should know about your health? Are you waiting for any investigations, treatments or procedures for any recent conditions? ",1,Yes|No,"3,1",1,12,,
+13,1,4,"Have you taken the selected medication before, or are you currently taking any medications for Hair Loss? ",1,Yes|No,"3,1",1,13,,
+14,1,4,"Are you already taking Finasteride for a condition apart from Hair Loss, or taking Dutasteride for prostate enlargement? ",1,Yes|No,"2,1",1,14,1,i. Finasteride 5mg tablets (Proscar) are sometimes used to treat prostate enlargement.
+15,1,4,"Have you ever had any allergic reaction or experienced side effects (e.g. mood alterations, depression, suicidal thoughts) to the selected medications or any other medications that you have tried before? ",1,Yes|No,"3,1",1,15,1,"i. The Patient Information Leaflet (PIL) that comes with your medicine will have a list of ingredients.
+i. A drug allergy is a response of the body's immune system to a medication; this is different to a side effect of a medication. Symptoms of an allergic reaction include itchy red eyes or skin rashes. Anaphylaxis is an extreme form of allergic reaction. It can cause swelling of the lips and tongue, breathing problems, collapse and loss of consciousness. "
+16,1,4,"Are you taking any prescription-only medicines, over-the-counter medicines, alternative medicines or recreational drugs? This includes regular and ‘when needed’ medications",1,Yes|No,"3,1",1,16,1,i. Please note these can be supplied under many different brand names and forms. Look for the generic drug name on the package.
+17,1,4,"Are you currently taking or planning to take any recreational drugs? In particular Cannabis, Cocaine, LSD, Ecstasy, Heroin, Poppers or Anabolic Steroids. ",1,Yes|No,"3,1",1,17,,
+18,1,4,Are you taking any of the following medicines? Please select all that apply,2,Alfuzosin| Doxazosin|Indoramin|Prazosin|Tamsulosin|Terazosin|Other,"3,3,3,3,3,3,3",7,18,,
+19,1,4,Do you have any other known allergies? ,1,Yes|No,"3,1",1,19,,

@@ -1,0 +1,29 @@
+﻿S.No,Conditions,"Category (Your Symptoms: 2, Your medical history: 3, Medication History: 4",Question,"Answer Type (Single: 1, Multiple: 2, Free Text: 3)",Answer options,"Risk (Low: 1, Medium: 2, High: 3)",Ask Additional (option order comma seperated),Position,Tooltip,Tooltip content
+3,47,2,"Which tobacco products do you smoke?
+Please select all that apply",2,Cigarettes/roll ups|Cigars|Pipes|Nicotine vapes|Other ,"2,2,2,2,2",5,1,,
+4,47,2,How many do you smoke a day?,1,1-10|11-20|21-30|>30 ,"2,2,2,2",,2,,
+5,47,2,How long have you been smoking?,1,< 12 months|1 - 5 years|> 5 years,"2,2,2",,3,,
+6,47,2,"Do you feel addicted to smoking? 
+Please select all that apply.",2,"I smoke even if I am so ill that I am in bed most of the day|I find it difficult to refrain from smoking in places where smoking is forbidden
+|I smoke more in the morning|I smoke within 30mins of waking up|None of the above","2,2,2,2,1",,4,,
+7,47,2,How motivated are you to stop smoking?,1,"Very motivated, I am willing to make the necessary lifestyle changes|Motivated, but not sure I am ready to make big changes|Sceptical, I'm not convinced I can do this|Not motivated at all","2,2,2,3",,5,,
+8,47,2,Have you made up your mind to stop smoking and set a date when you expect to stop? ,1,Yes|No,"1,3",1,6,,
+9,47,2,Have you attempted to give up smoking before? Did you find it hard to stop smoking and did you suffer from any withdrawal symptoms? ,1,Yes|No,"2,3",1,7,,
+10,47,2,Have you tried any of the following techniques to stop smoking? Please select all that apply.,2,Cold turkey' or willpower|Nicotine replacement (gum/patches/lozenges) |Zyban (Bupropion) |Champix (Varenicline) |Other techniques|Provide more information,"2,2,2,2,2,2",6,8,1,"Taking Champix with nicotine replacement therapy, Bupropion (Zyban) or another form of Varenicline (Champix) can cause significant side effects. 
+
+Nicotine replacement therapy includes patches, nasal spray, gum and lozenges."
+11,47,3,Have you ever had a mental health or psychiatric condition including the following? ,2,"Depression|Anxiety|Panic attacks|Mania|
+Bipolar disorder|Schizophrenia|Psychosis|
+ADHD|Provide more information","3,3,3,3,3,3,3,3,3",9,9,1,"A small number of people experience agitation, depressed mood or changes in behaviour as a side effect of Champix."
+12,47,3,Have you ever had a history of suicidal thoughts or plans to hurt yourself? ,1,Yes|No,"3,1",1,10,,
+13,47,3,Have you been investigated and/or diagnosed with any of the following conditions? Please select all that apply.,2,A serious brain injury|Epilepsy|Seizures|Heart disease|High blood pressure|Persistent sleep problems|Provide more information,"3,3,3,3,3,3,3",7,11,,
+14,47,3,Have you been diagnosed with a liver and/or kidney condition? ,1,Yes|No,"3,1",1,12,,
+15,47,3,"Has your doctor diagnosed you with any other medical conditions or is there anything else we should know about your health? Are you waiting for any investigations, treatments or procedures for any recent conditions? ",1,Yes|No,"3,1",1,13,,
+16,47,4,"Have you taken the selected medication before, or are you currently taking any medications for Stop Smoking? ",1,Yes|No,"2,1",1,14,,
+17,47,4,Have you ever had any allergic reaction or experienced side effects from the selected medications or from any other medications that you have tried before? ,1,Yes|No,"3,1",1,15,1,"The Patient Information Leaflet (PIL) that comes with your medicine will have a list of ingredients.
+
+A drug allergy is a response of the body's immune system to a medication; this is different to a side effect of a medication. Symptoms of an allergic reaction include itchy red eyes or skin rashes. Anaphylaxis is an extreme form of allergic reaction. It can cause swelling of the lips and tongue, breathing problems, collapse and loss of consciousness. "
+18,47,4,"Are you taking any prescription-only medicines, over-the-counter medicines, alternative medicines or recreational drugs? This includes regular and ‘when needed’ medications. ",1,Yes|No,"3,1",1,16,1,Please note these can be supplied under many different brand names and forms. Look for the generic drug name on the package.
+19,47,4,Are you currently taking Theophylline or Warfarin? ,1,Yes|No,"3,1",1,17,,
+20,47,4,"Are you currently taking or planning to take any recreational drugs? In particular Cannabis, Cocaine, LSD, Ecstasy, Heroin, Poppers (Amyl Nitrate). ",1,Yes|No,"3,1",1,18,,
+21,47,4,Do you have any other known allergies? ,1,Yes|No,"3,1",1,19,,

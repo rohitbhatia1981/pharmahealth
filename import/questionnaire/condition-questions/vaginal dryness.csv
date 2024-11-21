@@ -1,0 +1,20 @@
+﻿S.No,Conditions,"Category (Your Symptoms: 2, Your medical history: 3, Medication History: 4",Question,"Answer Type (Single: 1, Multiple: 2, Free Text: 3)",Answer options,"Risk (Low: 1, Medium: 2, High: 3)",Ask Additional (option order comma seperated),Position,Tooltip,Tooltip content
+5,9,2,Have you been reviewed and/or investigated by your doctor for Vaginal Dryness before?,1,Yes|No,"2,3",1,1,,
+6,9,2,"What symptoms are you currently experiencing? 
+Please select all the symptoms that apply.",2,"Vaginal dryness, itching or burning|Vaginal discharge|
+Pain or discomfort during sexual intercourse|Irregular bleeding or spotting|Recurrent urine infections|
+Hot flushes|Night sweats|Mood changes|Sleep problems|Other ","2,2,2,2,2,2,2,2,2,2",10,2,1,"Vaginal treatments are helpful to ease vaginal dryness and recurrent urine infections, however they do not treat the other symptoms of menopause such as hot flushes, mood changes, sleep problems and night sweats. If these symptoms are troublesome for you, you could consider HRT tablets or patches. "
+7,9,2,"Have you noticed any unexpected vaginal bleeding in the last 12 months? e.g. bleeding or spotting when you have not had a period in over a year, or heavy, irregular periods. ",1,Yes|No,"3,1",1,3,,
+8,9,3,"Do you have or have you been investigated, diagnosed and/or treated for any of the following cancers? ",2,"Breast cancer|Endometrial (womb) cancer
+Ovarian cancer|Cervical cancer|Provide more information","3,3,3,3,3",5,4,,
+9,9,3,Is your doctor happy for you to use vaginal oestrogen despite your cancer diagnosis? ,1,Yes|No,"2,3",,5,1,You should have had a full discussion about the risks and benefits of using vaginal oestrogen and any effect it might have on your cancer risk.
+10,9,3,Has anyone in your family ever been diagnosed with any of the above cancers? ,1,Yes|No,"3,1",1,6,,
+11,9,3,Have you been investigated and/or diagnosed with any of the following? ,2,"Blood clotting disorder e.g. PE, DVT|Blood clot in your leg or your lung|Angina, heart attack or stroke|High blood pressure (>140/90)|SLE, Lupus or Porphyria|Gallstones|Diabetes|Migraine / Severe headaches|Epilepsy|Asthma|Endometriosis or Fibroids|Otosclerosis|Provide more information ","3,3,3,3,3,3,3,3,3,3,3,3,3",13,7,1,Taking hormone treatment when you have had a previous blood clot can increase your risk of future blood clots. It is very unlikely with vaginal oesterogen but you need to be aware of this risk.
+12,9,3,Have you been diagnosed with a liver and/or kidney condition? ,1,Yes|No,"3,1",1,8,,
+13,9,3,"Has your doctor diagnosed you with any other medical conditions or is there anything else we should know about your health? Are you waiting for any investigations, treatments or procedures for any recent conditions?",1,Yes|No,"3,1",1,9,,
+14,9,4,"Have you taken the selected medication before, or are you currently taking any medications for Vaginal Dryness? ",1,Yes|No,"3,1",1,10,,
+15,9,4,Have you ever had any allergic reaction or experienced side effects from the selected medications or from any other medications that you have tried before? ,1,Yes|No,"3,1",1,11,1,"The Patient Information Leaflet (PIL) that comes with your medicine will have a list of ingredients.
+
+A drug allergy is a response of the body's immune system to a medication; this is different to a side effect of a medication. Symptoms of an allergic reaction include itchy red eyes or skin rashes. Anaphylaxis is an extreme form of allergic reaction. It can cause swelling of the lips and tongue, breathing problems, collapse and loss of consciousness. "
+16,9,4,"Are you taking any prescription-only medicines, over-the-counter medicines, alternative medicines or recreational drugs? This includes regular and ‘when needed’ medications",1,Yes|No,"3,1",1,12,1,Please note these can be supplied under many different brand names and forms. Look for the generic drug name on the package.
+17,9,4,Do you have any other known allergies? ,1,Yes|No,"3,1",1,13,,

@@ -1,0 +1,726 @@
+@media ( max-width: 1230px ) {
+	.top-navbar .navbar-brand > img {
+	width: 268px;
+	margin-top: 3px;
+}
+.top-navbar .navbar-nav li.ms-5 {
+  margin-left: 1rem !important;
+}
+.top-navbar{min-height: 87px;}
+}
+
+@media ( max-width: 1199px ) {
+	.top-navbar .navbar-nav li a {
+  font-size: 14px;}
+  .top-navbar .navbar-nav li.login_btn a{min-width: 80px;font-size: 14px;}
+  .top-navbar .navbar-brand img {
+	max-width: 180px;
+} 
+.top-navbar .navbar-nav li {
+	margin-left: 5px;
+} 
+.banner .left h3 br, .banner .left p br{display: none;}
+.banner .left h3{font-size: 30px;line-height: normal;}
+.banner .left p{font-size: 14px;}
+.banner .right img{transform: scale(1);}
+.serch_box {
+  width: 410px;}
+ .custom_tab_2 .treatment .container {
+	background-image: url(../images/dots_line.png), url(../images/dots_line_top.png),url(../images/dots_line.png);
+	background-position: 181px 83px, calc(100% - 414px) 25px, calc(100% - 178px) 83px;
+	background-size: 110px;
+} 
+.call_info_box h5{font-size: 15px;}
+.call_info_box p{font-size: 14px;}
+.treatment_options_bx h4{font-size: 17px;}
+.treatment_options_bx p{font-size: 14px;}
+.banner_01{background-size: 50%;}
+.treatment_options_bx{height:100%; }
+.treatment_options_bx .in{height:100%; }
+
+
+ul.setup_nav li a{text-align: center;width: 100%;padding: 0 9px 0 20px;
+justify-content: center;font-size: 14px;}
+ul.setup_nav li{flex: 0 0 16.66666%;max-width: 16.66666%;width: 16.66666%;}
+
+}
+@media ( max-width: 991px ) {
+/*	#navbarSupportedContent {
+	min-height: 100vh;
+	display: block;
+}
+#navbarSupportedContent .navbar-nav.ms-auto {
+	width: 400px;
+	transform: translate(410px,0);
+}
+#navbarSupportedContent.show .navbar-nav.ms-auto{transform: translate(0px,0);}*/
+#navbarSupportedContent:after{content: "";background-color: rgba(0,0,0,0.5);position: fixed;top: 67px;z-index: 1; bottom: 0px;left: 0px;right: 0px}
+#navbarSupportedContent .navbar-nav{
+	transform: translateX(105%);
+	position: absolute;
+	padding: 20px;
+	width: 320px;
+	min-width: 320px;
+	max-width: 320px;
+	right: 0;
+	top: 65px;
+	z-index: 1010;
+	min-height: calc(100vh - 65px);
+	background-color: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	transition: all .3s ease;
+}
+#navbarSupportedContent.show .navbar-nav {
+	transform: translateX(0);
+}
+#navbarSupportedContent .navbar-nav{margin-left: 0px!important;width: 100%;}
+body {
+  padding-top: 65px;
+} 
+.top-navbar .navbar-nav{justify-content: inherit!important;}
+.top-navbar .navbar-nav li {margin-bottom: 10px;border-bottom: 1px solid #ECECEC;padding-bottom: 10px;}
+.top-navbar .navbar-nav li a {
+	font-size: 14px;
+	width: 100%;
+	min-height: initial;
+} 
+
+.navbar-light .navbar-nav .nav-item.login_link.ms-5 {
+	margin-left: 0 !important;
+	margin-bottom: 12px;
+	margin-left: 5px!important;
+} 
+.mega_menu .dropdown-menu div[class*="col-"] {
+	flex: 0 0 100%;
+	max-width: 100%;
+} 
+.mega_menu_box h3 {
+  font-size: 15px;}
+  .top-navbar .navbar-nav li a {
+  font-size: 15px;}
+  #navbarSupportedContent .navbar-nav{height: calc(100vh - 65px);overflow-y: auto;}
+  .treatment .container, .custom_tab_2 .treatment .container{background:none;}
+  .our_treatments .row div[class*="col-"] {
+	flex: 0 0 50%;
+	max-width: 50%;
+} 
+.our_treatments .row div.col-sm-12 {
+	flex: 0 0 100%;
+	max-width: 100%;
+} 
+.our_team .row div[class*="col-"] {
+	flex: 0 0 50%;
+	max-width: 100%;
+} 
+.our_team_box{margin-bottom: 50px;}
+.top-navbar .navbar-nav li .nav-link{position: relative;}
+.top-navbar .navbar-nav li .dropdown-toggle::after {
+	 
+	border-top: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 5px solid transparent;
+	border-left: 5px solid #CCC;	 
+	position: absolute;
+	right: 3px;
+	top: calc(50% - 6px);
+}
+.banner .left p{line-height: 25px;}
+
+.mega_menu .dropdown-menu{margin-top: 10px;}
+.mega_menu_box{margin-bottom: 15px;}
+.mega_menu .dropdown-menu{padding-bottom: 0px;}
+
+.how_it_dropdown .dropdown-menu li:last-child {
+	margin-bottom: 0;border-bottom: none;
+} 
+.how_it_dropdown .dropdown-menu {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+.mega_menu .dropdown-menu .row div[class*="col-"]:last-child ul li:last-child {
+	border-bottom: none;
+	margin-bottom: 0;
+} 
+.mega_menu .dropdown-menu .row div[class*="col-"]:last-child .mega_menu_box {
+	margin-bottom: 10px;
+} 
+.top-navbar .navbar-nav li.mega_menu .dropdown-menu {
+	margin-bottom: 15px;
+} 
+.how_it_dropdown .dropdown-menu li {
+	margin-bottom: 8px;
+	padding-bottom: 8px;
+} 
+.top-navbar {
+	min-height: 68px;
+} 
+.login_screen div[class*="col-"] {
+	flex: 0 0 100%;
+	max-width: 100%;
+}
+.login_screen .login_img{display: none;}
+.our_partner_logos li:not(.item) {
+	flex: 0 0 26%;
+}
+.our_partner_logos li.item {
+	padding: 0 14px;
+}
+.custom_tab .nav-tabs .nav-item .nav-link{min-width:auto;}
+.custom_tab .nav-tabs .nav-item .nav-link{font-size: 13px;}
+ul.page_navi{padding: 0 0;}
+ul.page_navi li a{width:24px; }
+.treatment_listing div[class*="col-"] {
+	flex: 0 0 50%;
+	max-width: 50%;
+}
+
+.useful_screen .right {
+	flex: 0 0 200px; 
+	max-width: 200px;  
+	padding-left: 30px;
+}
+.call_info_box h5 i{font-size: 17px;margin-top: 0px;}
+.contact_info p br{display: none;
+}
+
+.call_info_box > i {
+	position: absolute;
+	left: 0;
+	top: -26px;
+	right: 0;
+	text-align: center;
+	background-color: #00a3ff;
+	width: 52px;
+	height: 52px;
+	border-radius: 50%;
+	font-size: 20px;
+	color: #FFF;
+	margin: 0 auto;
+	border: 4px solid rgba(255,255,255,0.4);
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 2px;
+} 
+.call_info_box {
+	padding: 40px 20px 20px 20px;
+	text-align: center;
+	justify-content: start;
+	display: inline-block;
+}
+.call_info_box h5 i{float: none;}
+.call_info_box h5 p {
+	width: 100%;
+}
+.contact_info .container > p {
+	margin-bottom: 60px;
+	float: left;
+	width: 100%;
+}
+
+.product_detail_top div[class*="col-"] {
+	flex: 0 0 100%;
+	max-width: 100%;
+}
+.product_detail_top .right {
+	padding-left: 0;
+	margin-top: 25px;
+}
+.product_detail_top .faqs_screen {
+  padding-top: 34px;}
+    .hair_products_box h4{text-align: center;}
+  .hair_products_box h4 span {
+	width: 100%;
+}
+
+.regulations_page .banner_01 {
+	background-image: url(../images/img1.png);
+	background-position: calc(100% - 36px) center;
+	background-size: 25.333%;
+} 
+ul.setup_nav li a::after, ul.setup_nav li a::before{display: none;} 
+ul.setup_nav li {
+  flex: 0 0 auto;
+  max-width: 100%;
+  width: auto;
+}
+ul.setup_nav li a {
+	padding: 0 10px;
+	border-right: 1px solid #CCC;
+} 
+ul.setup_nav {
+	display: flex;justify-content: space-between;
+	background-color: #d4d7de;
+} 
+}
+
+@media ( max-width: 767px ) {
+
+	.simply_collect .row div[class*="col-"], .treatment .row div[class*="col-"] {
+	flex: 0 0 100%;
+	max-width: 100%;
+} 
+.simply_collect .list_item {
+	margin-top: 40px;
+} 
+.treatment .treatment_box{margin-bottom: 20px;}
+.btn-danger.ps-5.pe-5 {
+	padding-left: 10px !important;
+	padding-right: 10px !important;
+} 
+.our_latest .row div[class*="col-"] {
+	flex: 0 0 100%;
+	max-width: 100%;
+} 
+.article-list {
+	margin-bottom: 35px;
+} 
+.footer .row div[class*="col-"] {
+	flex: 0 0 50%;
+	max-width: 100%;
+	margin-bottom: 25px;
+} 
+
+.banner {
+  padding-top: 60px;
+  padding-bottom: 58px;}
+  .simply_collect {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.title_h3 br {
+	display: none;
+}
+.our_treatments {
+  padding-top: 60px;padding-bottom: 58px;}
+.our_team {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.faqs {
+	padding-top: 10px;
+}
+ .banner .right img{margin: 0px}
+ .simple_video {
+	padding-top: 0;
+} 
+.treatment {
+	margin-bottom: 50px;
+} 
+.our_patients{padding-top: 45px;}
+.our_patients .title_h2 {
+	margin-bottom: 30px;
+} 
+.our_patients .review-wrap{padding-top: 10px;}
+.our_patients .review-wrap .review-user{top:0px;}
+.our_patients{padding-bottom: 60px;}
+.footer{padding-bottom: 38px;}
+.list_item li{font-size: 15px;background-size: 19px;margin-bottom: 15px;}
+
+.treatment .treatment_box {
+	padding-left: 67px;
+	position: relative;
+	text-align: left !important;
+	margin-bottom: 27px;
+} 
+.treatment .treatment_box > img {
+	position: absolute;
+	top: 6px;
+	left: 0px;
+	width: 45px;
+} 
+.treatment .treatment_box h4 {
+	margin-top: 0;
+	display: inline-block;
+	margin-bottom: 5px;
+	font-size: 16px;
+} 
+.treatment .treatment_box h4 br{display: none;}
+.treatment .treatment_box h4 span {
+	display: none;
+}
+.treatment_box p br{display: none;}
+.our_treatments .row div.col-sm-12 .btn-danger {
+	margin: 0 5px 15px 5px !important;
+	font-size: 14px;
+} 
+.faqs .row > .col-sm-4 {
+	display: none;
+} 
+.accordion .accordion-header .accordion-button{font-size: 15px;}
+
+.our_partner_logos{flex-wrap: wrap;justify-content:center}
+.our_partner_logos li.item { 
+	flex: 0 0 25%;
+}
+.our_partner_logos li:not(.item) {
+	flex: 0 0 100%;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.our_partner {
+	padding: 35px 0;
+}
+.additional_clinical_box h5 {
+  font-size: 15px;}
+  .pharmacy_banner div[class*="col-"] {
+	flex: 0 0 100%;
+	max-width: 100%;
+	width: 100%;
+}
+.figcaption_section div[class*="col-"] {
+	flex: 0 0 50%;
+	max-width: 50%;
+}
+ul.page_navi {
+	padding: 0 0;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+ul.page_navi li {
+	margin: 4px;
+}
+.top_info .d-inline-flex {
+	display: inline-block !important;
+	text-align: center;
+} 
+.top_info {
+	padding-top: 46px;
+	padding-bottom: 46px;
+}
+.treatment_listing div[class*="col-"] {
+	flex: 0 0 100%;
+	max-width: 100%;
+}
+.a_z_treatment{padding-bottom: 60px;}
+
+.how_to_works_one .center {
+	display: none;
+} 
+
+.how_to_works_one .right {
+	position: absolute;
+	left: 0;
+	width: 70px;
+} 
+.how_to_works_one {
+	padding-bottom: 15px;
+	position: relative;
+	padding-left: 100px;
+}
+.how_to_works_one .left, .how_to_works_one .right {
+	padding-top: 28px;
+	flex: 0 0 100%;
+	max-width: 100%;
+}
+.how_to_works {
+	padding-top: 60px;
+}
+.how_to_works_one .title_h3 {
+	font-size: 22px;
+	line-height: normal;
+	margin-bottom: 12px;
+}
+.how_to_works_one p {
+  font-size: 14px;margin-bottom: 20px;}
+
+.useful_screen .right {
+	flex: 0 0 100%;
+	max-width: 100%;
+	padding-left: 0;
+	text-align: center;
+	padding-top: 30px;
+	float: left;
+	width: 100%;
+}
+.useful_screen .left {
+	flex: 0 0 100%;
+	max-width: 100%;
+}
+.useful_screen .d-flex {
+	display: inline-block !important;
+	width: 100%;
+}
+
+.faqs_screen .row > .col-sm-4 {
+	display: inline-block;
+}
+.faqs_screen .row div[class*="col-"]{flex: 0 0 100%;max-width: 100%;}
+.faqs_screen .tabs_navi {
+	margin-bottom: 40px;
+	float: left;
+	width: 100%;
+} 
+ul.tabs_navi li a{padding: 15px;}
+.faqs_screen .title_h2 {
+	margin-bottom: 45px;
+}
+.faqs_screen {
+	padding-top: 48px;
+}
+.contact_info div[class*="col-"] {
+	flex: 0 0 100%;
+	max-width: 100%;
+}
+.call_info_box {
+	margin-bottom: 70px;
+	height: auto;
+}
+.contact_info .row div[class*="col-"]:last-child .call_info_box {
+	margin-bottom: 0;
+}
+.commonly_product .left_, .commonly_product .right_ {
+	flex: 0 0 100%;
+	max-width: 100%;
+} 
+.commonly_product {
+	display: inline-block;
+	width: 100%;
+}
+.commonly_product .center_ {
+	width: 100%;
+	max-width: 100%;
+	text-align: center;
+	justify-content: center;
+	margin: 15px 0;
+}
+.quick_easy {
+	width: 100%;
+	max-width: 100%;
+	flex: 0 0 100%;
+} 
+.quick_easy_section .d-flex {
+	display: inline-block !important;
+}
+.product_detail .simple_video div[class*="col-"] {
+	flex: 0 0 100%;
+	max-width: 100%;
+} 
+.product_detail .how_to_order_list {
+	margin-top: 40px;
+} 
+.product_detail .faqs_screen .tab-content {
+	padding-left: 0;
+}
+.product_detail .simple_video {
+	padding-top: 50px;
+} 
+.product_price_box h3 {
+	width: 100%;
+	max-width: 100%;
+} 
+.product_price_box {
+	display: inline-block;
+	text-align: center;
+}
+.product_price_box .btn {
+	margin: 10px auto 0;
+	float: none;
+}
+
+.banner_01 div[class*="col-"] {
+	flex: 0 0 100%;
+	max-width: 100%;
+	text-align: center;
+} 
+ 
+ .banner_01 h3 {
+  font-size: 25px;}	
+  .banner_01 h6 {
+  font-size: 15px;}
+  .banner_01 p {
+  font-size: 15px;} 
+.banner_01 {
+	padding-bottom: 141px;
+	background-position: bottom center;
+	background-size: 260px;
+} 
+
+.treatment_page .simple_video div[class*="col-"] {
+	flex: 0 0 100%;
+	max-width: 100%;
+} 
+.treatment_page .how_to_order_list {
+	padding: 0;
+	margin-top: 40px;
+}
+.hair_products_box .img_box img {
+	max-height: 130px;
+}
+.hair_products_box{min-height: 250px;}
+
+.regulations_page .banner_01 {
+	background-image: url(../images/img1.png);
+	background-position: center bottom;
+	background-size: 230px;
+	padding-top: 35px;
+}
+.regulations_page .banner_01 .row {
+  min-height: auto;
+}
+
+.white_card > .row > div[class*="col-"] {
+	flex: 0 0 100%;
+	max-width: 100%;
+} 
+.patient-order-checkout .gray_box{margin-top: 15px;}
+ul.setup_nav{flex-wrap: wrap;background-color: transparent;
+gap: 6px 5px;justify-content: space-between;}
+ul.setup_nav li {
+	flex: 0 0 calc(33.333% - 4px);
+	max-width: calc(33.333% - 4px);
+	width: calc(33.333% - 4px);
+}
+.progress_box{width: 200px;}
+.setup_white_box {
+	padding: 25px;
+} 
+.medication-questionaire h1{font-size: 25px;}
+
+.setup_option_2 .setup_white_box div[class*="col-"] {
+	flex: 0 0 100%;
+	max-width: 100%;
+	width: 100%;
+} 
+
+.left_right_buttons .btn-gray {
+	min-width: 110px;
+}
+.left_right_buttons .btn-danger {
+  min-width: 129px;
+}
+.left_right_buttons .btn {
+	margin-left: 5px !important;
+	margin-right: 5px !important;
+}
+
+.simply_collect{text-align: center;}
+
+.simply_collect .list_item {
+	width: 365px;
+	text-align: left;
+	margin: 40px auto;
+	max-width: 100%;
+} 
+
+}
+
+@media ( min-width: 576px ) {
+	.faqs .title_h2 br{display: none;}
+}
+
+@media ( max-width: 575px ) {
+	.banner .right {
+	width: 100%;
+	text-align: center;
+	margin-top: 20px;
+} 
+.our_treatments .row div[class*="col-"], .our_team .row div[class*="col-"] {
+	flex: 0 0 100%;
+	max-width: 100%;
+} 
+.title_h2 {
+  font-size: 28px;}
+  .faqs .col-sm-4 img {
+	margin-top: 30px;
+} 
+.our_patients{padding-top: 15px;}
+.our_logos li img {
+	height: 28px;
+} 
+.treatment{margin-bottom: 70px;}
+.our_latest {
+	padding-bottom: 30px;
+} 
+/*.our_treatments .row div.col-sm-12 .btn-danger {
+	margin: 0 20px 15px 20px !important;
+} */
+
+.treatment {
+	margin-bottom: 32px;
+} 
+
+.footer_copy_right ul li {
+	display: inline-block;
+	position: relative;
+	margin: 2px;
+	width: calc(50% - 4px);
+	float: left;
+	background-color: rgba(13, 33, 31,0.1);
+}
+.footer_copy_right ul li::after{display: none;}
+.footer_copy_right ul {
+  margin: 14px 0 0 0;} 
+  .custom_tab .nav-tabs .nav-item .nav-link { 
+	padding-left: 6px;
+	padding-right: 6px;
+}
+.serch_box .form-control{font-size: 14px;}
+.additional_clinical .img_box {
+	min-height: auto;
+	margin-bottom: 10px;
+} 
+.additional_clinical_box {
+	margin-bottom: 40px;
+}
+.additional_clinical{padding-bottom: 50px;}
+
+.how_to_works_one{padding-left: 70px;}
+.how_to_works_one .right{width: 50px;}
+.simple_video .video_box.pt-3 {
+	padding-top: 0 !important;
+}
+.how_to_works{padding-top: 50px;}
+.useful_screen {
+  padding-top: 0; }
+  .useful_screen .title_h3{font-size: 30px;}
+  .radio_inline_box .custom_radio {
+	margin-right: 8px;
+	font-size: 14px;
+}
+.call_info_box {
+  margin-bottom: 50px;}
+
+  .register_box{padding:15px;}
+  .treatment_options_bx {
+	margin-bottom: 20px;
+	height: auto;
+} 
+.treatment_page .simple_video {
+	padding-top: 55px;
+} 
+.treatment_page .simple_video .title_h2 {
+	margin-bottom: 35px;
+} 
+.hair_products h3 {
+  margin: 0px 0 40px 0; }
+  .treatment_page .faqs_screen {
+	padding-top: 45px;
+} 
+.card_title{margin-left: -15px;margin-right: -15px;}
+.prescriber_screen .form-control{margin-bottom: 10px;}
+.prescriber_screen .custom-file .form-control{margin-bottom: 0px;}
+.practice_box .form-group .form-label{padding-left: 15px;}
+
+.banner{text-align: center;}
+.serch_box {
+	width: 100%;
+}
+
+.banner .left {
+	text-align: left;
+	width: 90%;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.simply_collect {
+	text-align: left;
+}
+.simply_collect .container {
+	width: 90%;
+}  
+
+}

@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+  <head> 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Pharma Health</title>
+  </head>
+  <body style="padding-top:0px;"> 
+<section class="login_screen">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6">
+				<div class="left text-center">
+					<a href="#" class="logo">
+						<img src="images/logo.png">
+					</a>
+					<h4 class="title_h4">Sign in</h4>
+					<div class="form-group">
+						<input type="email" class="form-control" placeholder="Email">
+					</div>
+					<div class="form-group mb-2">
+						<input type="password" class="form-control" placeholder="Password">
+					</div>
+					<a href="#" class="link float-end">Forgot Password?</a>
+					<input type="submit" class="me-2 btn btn-danger btn-lg d-inline-flex align-items-center ps-5 pe-5 w100p" value="Login">
+					<div class="signup_box">
+						<div class="or_line"><span>or</span></div>
+						<a href="#" class="btn btn-outline-blue"><img src="images/google_icon.png"> Sign in with Google</a>
+						<a href="#" class="btn btn-outline-blue">Register with Pharma Health</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="login_img">
+				<img src="images/login_img.jpg">
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<script src="https://owlcarousel2.github.io/OwlCarousel2/assets/vendors/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/owl.carousel.js"></script>
+  <script type="text/javascript">
+  	$('.owl-carousel-1').owlCarousel({
+    loop:true,
+    margin:10,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:2,
+            nav:false
+        },
+        1000:{
+            items:2,
+            nav:true,
+            loop:false
+        }
+    }
+})
+  	$('.owl-carousel-2').owlCarousel({
+    loop:true,
+    margin:20,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:2,
+            nav:true,
+            margin:10,
+        },
+        600:{
+            items:3,
+            nav:false
+        },
+        1000:{
+            items:4,
+            nav:true,
+            loop:false
+        }
+    }
+})
+  	$('.owl-carousel-3').owlCarousel({
+    loop:true,
+    margin:20,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:2,
+            nav:false
+        },
+        1000:{
+            items:3,
+            nav:true,
+            loop:false
+        }
+    }
+})
+  	$('.owl-carousel-4').owlCarousel({
+    loop:true,
+    margin:20,
+    responsiveClass:true,
+    autoplay:true,
+    autoplayTimeout:2000,
+    responsive:{
+        0:{
+            items:2,
+            nav:false
+        },
+        600:{
+            items:2,
+            nav:false
+        },
+        1000:{
+            items:3,
+            nav:false,
+            loop:true
+        }
+    }
+})
+
+  	$('.navbar-nav li.dropdown').hover(function() { 
+  $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
+}, function() {
+  $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
+});  
+  </script>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+﻿S.No,Conditions,"Category (Your Symptoms: 2, Your medical history: 3, Medication History: 4",Question,"Answer Type (Single: 1, Multiple: 2, Free Text: 3)",Answer options,"Risk (Low: 1, Medium: 2, High: 3)",Ask Additional (option order comma seperated),Position,Tooltip,Tooltip content
+1,41,2,Have you been reviewed and/or investigated by your doctor for Pain before?  ,1,Yes|No,"2,1",1,1,,
+2,41,2,Where is the pain located?,3,,,,2,,
+3,41,2,When did your pain start?,3,,,,3,,
+4,41,2,"Describe the pain (e.g. sharp, throbbing, tender) and any other symptoms (e.g. nausea, swelling, redness) you are experiencing.",3,,,,4,,
+5,41,2,"Do you know the cause of your pain? e.g. lifting a heavy object, sports injury, or arthritis ",1,Yes|No,"2,1",1,5,,
+6,41,2,Is there anything that makes the pain better or worse? ,3,,,,6,,
+7,41,2,"On a scale of 0 to 10, how severe would you describe your pain to be? (0 meaning no pain and 10 meaning extreme pain) ",1,0|1|2|3|4|5|6|7|8|9|10,"1,1,1,2,2,2,2,3,3,3",,7,,
+8,41,2,Is your pain or inflammation due to any of the following reasons? Please select all the conditions that apply.,2,"Back pain, sprains and strains|Menstrual cramps (period pain)|Ankylosing spondylitis|Rheumatoid arthritis|Osteoarthritis|Bursitis|Tendinitis|Gout|Other","2,2,2,2,2,2,2,2,2",9,8,,
+9,41,3,Have you ever experienced or been diagnosed with the following conditions? ,2,"High blood pressure|Heart conditions e.g. stroke, heart attack. heart failure|Gastrointestinal disease e.g. ulcerative colitis, crohn’s disease|Bronchial asthma, other breathing problems or nasal polyps|Systemic lupus erythematosus|Blood clotting disorder|Unexpected weight loss, changes in bowel habit, abnormal sweating or unexpected bleeding|Stomach, peptic or gut ulcers; bleeding in the stomach or intestines; stomach bleeding or perforation|Any condition requiring you to be on a low potassium diet|Other","3,3,3,3,3,3,3,3,3,3",10,9,,
+10,41,3,Have you been diagnosed with a liver and/or kidney condition?,1,Yes|No,"3,1",1,10,,
+11,41,3,"Has your doctor diagnosed you with any other medical conditions or is there anything else we should know about your health? Are you waiting for any investigations, treatments or procedures for any recent conditions? ",1,Yes|No,"3,1",1,11,,
+12,41,4,"Have you taken the selected medication before, or are you currently taking any medications for this Pain? ",1,Yes|No,"3,1",1,12,,
+13,41,4,"Have you ever had any allergic reaction or experienced side effects to the selected medications or any other medications (e.g. naproxen, aspirin, ibuprofen) that you have tried before? ",1,Yes|No,"3,1",1,13,1,"i. The Patient Information Leaflet (PIL) that comes with your medicine will have a list of ingredients.
+i. A drug allergy is a response of the body's immune system to a medication; this is different to a side effect of a medication. Symptoms of an allergic reaction include itchy red eyes or skin rashes. Anaphylaxis is an extreme form of allergic reaction. It can cause swelling of the lips and tongue, breathing problems, collapse and loss of consciousness. "
+14,41,4,Have you ever experienced difficulty stopping pain relief medication? ,1,Yes|No,"2,1",1,14,,
+15,41,4,Have you tried non-drug treatments for your pain?,2,Physiotherapy|Chiropractic|TENS|Hydrotherapy|Massage|Acupuncture|Other,"2,2,2,2,2,2,2",7,15,,
+16,41,4,"Are you taking any prescription-only medicines, over-the-counter medicines, alternative medicines or recreational drugs? This includes regular and ‘when needed’ medications",1,Yes|No,"3,1",1,16,1,i. Please note these can be supplied under many different brand names and forms. Look for the generic drug name on the package.
+17,41,4,Are you taking any of the following medications? ,2,"NSAIDs or COX II inhibitors e.g. Aspirin|Blood thinners e.g. Heparin or Warfarin|Corticosteroids e.g. Prednisolone|Antidepressants e.g. Citalopram|Antibiotics e.g. Ciprofloxacin|Diabetes medications e.g. Glibenclamide or Gliclazide|BP medications e.g. Bendroflumethiazide, Furosemide, Ramipril, Lisinopril, Captopril|Others including Ciclosporin, Tacrolimus, Mifepristone. Zidovudine, Probenecid, Methotrexate, Bisphosphonates, Colestyramine, Lithium, Phenytoin, Sulfamethoxazole, Digoxin","3,3,3,3,3,3,3,3",8,17,,
+18,41,4,Do you have any other known allergies? ,1,Yes|No,"3,1",1,18,,
+,,,,,,,,,,
+,,,,,,,,,,
