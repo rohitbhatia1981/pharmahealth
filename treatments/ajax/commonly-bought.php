@@ -8,7 +8,7 @@ $rowCom=$resGetUnique[0];
     max-height: 400px; /* Limit the height to 400px */
     overflow-y: auto;  /* Enable vertical scrolling if content overflows */
     padding: 10px;     /* Optional padding for inner content */
-    border: 1px solid #ccc; /* Optional border for styling */
+    border: 0px solid #ccc; /* Optional border for styling */
     border-radius: 5px; /* Rounded corners */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
@@ -56,7 +56,7 @@ $rowCom=$resGetUnique[0];
 			</div>	
 		</div>
 		<div class="col-md-7">
-			<div class="right">
+			<div class="right right-side">
             <?php echo fnUpdateHTML($rowCom['med_c_desc']); ?>
             </div>
            </div>     
