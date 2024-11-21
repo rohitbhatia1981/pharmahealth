@@ -673,7 +673,20 @@ else
                             
 					
                     		
-                          
+                         <div class="form-group ">
+						<div class="form-label">Transaction SMS Enable</div>
+						<div class="custom-controls-stacked">
+							<label class="custom-control custom-radio">
+								<input type="radio" class="custom-control-input" name="rdoSMS" id="rdoSMS" value="1" <?php if($row['pharmacy_sms']=="1" || $row['pharmacy_sms']=='') echo 'checked="checked"'; ?>>
+								<span class="custom-control-label">Yes</span>
+							</label>
+							<label class="custom-control custom-radio">
+								<input type="radio" class="custom-control-input" name="rdoSMS" id="rdoSMS" value="0" <?php if($row['pharmacy_sms']==0 && $row['pharmacy_sms']!='') echo 'checked="checked"'; ?>>
+								<span class="custom-control-label">No</span>
+							</label>
+					
+						</div>
+					</div> 
                         
 
 
@@ -682,11 +695,11 @@ else
 						<div class="form-label">Enabled</div>
 						<div class="custom-controls-stacked">
 							<label class="custom-control custom-radio">
-								<input type="radio" class="custom-control-input" name="rdoPublished" id="rdoPublished" value="1" <?php if($row['page_status']=="1" || $row['page_status']=='') echo 'checked="checked"'; ?>>
+								<input type="radio" class="custom-control-input" name="rdoPublished" id="rdoPublished" value="1" <?php if($row['pharmacy_status']=="1" || $row['pharmacy_status']=='') echo 'checked="checked"'; ?>>
 								<span class="custom-control-label">Yes</span>
 							</label>
 							<label class="custom-control custom-radio">
-								<input type="radio" class="custom-control-input" name="rdoPublished" id="rdoPublished" value="0" <?php if($row['page_status']==0 && $row['page_status']!='') echo 'checked="checked"'; ?>>
+								<input type="radio" class="custom-control-input" name="rdoPublished" id="rdoPublished" value="0" <?php if($row['pharmacy_status']==0 && $row['pharmacy_status']!='') echo 'checked="checked"'; ?>>
 								<span class="custom-control-label">No</span>
 							</label>
 					

@@ -517,6 +517,9 @@
 				
 				//------------send sms to pharmacy informing patient assessment approval---
 				
+				if ($rowPharmacy['pharmacy_sms']==1)
+				{
+				
 				// Your ClickSend API credentials
 				$username = SMS_USERNAME;
 				$apiKey = SMS_APIKEY;
@@ -576,6 +579,7 @@
 				
 				// Close cURL session
 				curl_close($ch);
+				}
 				
 				//-----------end sending sms--------
 			

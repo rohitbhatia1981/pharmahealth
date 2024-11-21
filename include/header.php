@@ -283,7 +283,7 @@ $patientMode=1;
             </li>
             
              <li class="nav-item dropdown how_it_dropdown" style="padding:0px 0px">
-               <a class="dropdown-item" href="<?php echo URL?>pharmacy/signup">Pharmacy Sign up</a>
+               <a class="dropdown-item" href="<?php echo URL?>contact-us?contact=pharmacy">Pharmacy Sign up</a>
             </li>
             
             <li class="nav-item dropdown how_it_dropdown" style="padding:0px 0px">

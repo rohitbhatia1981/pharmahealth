@@ -957,6 +957,9 @@ function changepresStatus()
 				
 				//------------send sms to patient informing to collect order---
 				
+				if ($rowMemberid['patient_marketing_emails']==1)
+				{
+				
 				// Your ClickSend API credentials
 				$username = SMS_USERNAME;
 				$apiKey = SMS_APIKEY;
@@ -1016,6 +1019,7 @@ function changepresStatus()
 				
 				// Close cURL session
 				curl_close($ch);
+				}
 				
 				//-----------end sending sms--------
 				

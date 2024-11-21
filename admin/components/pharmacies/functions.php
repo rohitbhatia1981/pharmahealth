@@ -137,7 +137,8 @@
 			
 			'pharmacy_notes' => $_POST['txtNotes'], 			
 			'pharmacy_logo' => $_POST['images4ex'][0],			
-			'pharmacy_reg_date' => $dtToday,			
+			'pharmacy_reg_date' => $dtToday,	
+			'pharmacy_sms' => $_POST['rdoSMS'],		
 			'pharmacy_status' => $_POST['rdoPublished'] //Random thing to insert
 
 		);
@@ -337,7 +338,8 @@
 			'pharmacy_reg_date' => $dtToday,				
 			'pharmacy_about_us' => $_POST['txtAboutus'], 
 			'pharmacy_website' => $_POST['txtWebsite'], 
-			'pharmacy_map' => $_POST['txtMap'],			
+			'pharmacy_map' => $_POST['txtMap'],
+			'pharmacy_sms' => $_POST['rdoSMS'],			
 			'pharmacy_status' => $_POST['rdoPublished']
 
 			);
