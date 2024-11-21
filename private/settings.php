@@ -12,7 +12,7 @@ define("PATH","{$_SERVER['DOCUMENT_ROOT']}/pharmahealth-dev/");
 }
 else
 {
-define("URL","http://{$_SERVER['SERVER_NAME']}/projects/pharmahealth-dev/");
+define("URL","https://{$_SERVER['SERVER_NAME']}/projects/pharmahealth-dev/");
 define("PATH","{$_SERVER['DOCUMENT_ROOT']}/projects/pharmahealth-dev/");
 }
 
