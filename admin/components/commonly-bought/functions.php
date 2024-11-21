@@ -57,6 +57,7 @@
 			'med_c_title' => $_POST['txtTitle'],			
 			'med_c_image' => $_POST['images4ex'][0],
 			'med_c_price' => $_POST['txtPrice'],
+			'med_c_desc' => $_POST['txtDescription'],
 			'med_c_dosage1' => $_POST['txtDosage1'],
 			'med_c_dosage2' => $_POST['txtDosage2'],							  
 			'med_c_status' => $_POST['rdoPublished'] //Random thing to insert
@@ -137,6 +138,7 @@
 			'med_c_title' => $_POST['txtTitle'],
 			
 			'med_c_price' => $_POST['txtPrice'],
+			'med_c_desc' => $_POST['txtDescription'],
 			'med_c_dosage1' => $_POST['txtDosage1'],
 			'med_c_dosage2' => $_POST['txtDosage2'],
 			'med_c_image' => $_POST['images4ex'][0],							  

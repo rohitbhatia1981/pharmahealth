@@ -258,7 +258,7 @@ foreach ($items as $item) {
                     
 						<div class="col-md-2">
 							<div class="commonly_item" style="min-height:230px"  >
-                            <img src="<?php echo URL?>classes/timthumb.php?src=<?php echo URL?>images/medication/common/<?php echo $rowCom['med_c_image']; ?>&w=340&h=331&zc=2" style="max-height:120px">
+                           <a href="javascript:;" class="openModalBtn" id="openCommon" data-modal-id="myModalCommon" data-id="<?php echo $rowCom['med_c_id']; ?>"><img src="<?php echo URL?>classes/timthumb.php?src=<?php echo URL?>images/medication/common/<?php echo $rowCom['med_c_image']; ?>&w=340&h=331&zc=2" style="max-height:120px"></a>
 							<p style="padding-top:12px;font-size:14px"><?php echo $rowCom['med_c_title']?></p>
                             
                            <p style="font-size:14px">Only <b><?php echo CURRENCY.$rowCom['med_c_price']?></b> !</p>
@@ -525,11 +525,57 @@ foreach ($items as $item) {
             </p>
         </div>
     </div>
+    
+    <div id="myModalCommon" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Common Medication</h2>
+        <div style="height:5px"></div>
+        <p id="modalContent">Loading content...</p> <!-- Placeholder for dynamic content -->
+    </div>
+</div>
 
  <?php include PATH."include/footer.php"; ?> 
  <script language="javascript">
   var modalOpened = false; 
  $(document).ready(function() {
+	 
+	 
+	   // Open modal on click
+    $('.openModalBtn').on('click', function () {
+        const modalId = $(this).data('modal-id'); // Get the modal ID
+        const dataId = $(this).data('id');       // Get the data-id
+
+        // Open the modal
+        $('#' + modalId).show();
+
+        // Fetch data using AJAX
+        $.ajax({
+            url: 'ajax/commonly-bought.php', // Server-side script to fetch data
+            type: 'GET',
+            data: { id: dataId }, // Send the data-id
+            success: function (response) {
+                // Update the modal content
+                $('#modalContent').html(response);
+            },
+            error: function () {
+                // Handle error
+                $('#modalContent').html('Failed to load content. Please try again.');
+            }
+        });
+    });
+
+    // Close the modal
+    $('.close').on('click', function () {
+        $('.modal').hide();
+    });
+
+    // Close modal when clicking outside the content area
+    $(window).on('click', function (event) {
+        if ($(event.target).hasClass('modal')) {
+            $('.modal').hide();
+        }
+    });
 	
 	
     // Function to open modal

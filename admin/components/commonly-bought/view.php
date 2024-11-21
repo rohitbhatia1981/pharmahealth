@@ -354,6 +354,11 @@ else
 							</div>
                             
                             <div class="form-group">
+								<label class="form-label">Description</label>
+								<textarea   name="txtDescription" rows="3" cols="80" class="summernote"  ><?php echo $row['med_c_desc']?></textarea>
+							</div>
+                            
+                            <div class="form-group">
 								<label >Dosage 1</label>
 								<textarea   name="txtDosage1" rows="3" cols="80" class="form-control" ><?php echo $row['med_c_dosage1']?></textarea>
 							</div>
