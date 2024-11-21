@@ -545,6 +545,8 @@ foreach ($items as $item) {
     $('.openModalBtn').on('click', function () {
         const modalId = $(this).data('modal-id'); // Get the modal ID
         const dataId = $(this).data('id');       // Get the data-id
+		
+		$('#modalContent').html("");
 
         // Open the modal
         $('#' + modalId).show();
