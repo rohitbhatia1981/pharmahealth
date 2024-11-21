@@ -4,7 +4,7 @@ $resGetUnique=$database->get_results($sqlGetUnique);
 $rowCom=$resGetUnique[0];
 ?>
 <style>
-.right {
+.right-side {
     max-height: 400px; /* Limit the height to 400px */
     overflow-y: auto;  /* Enable vertical scrolling if content overflows */
     padding: 10px;     /* Optional padding for inner content */
@@ -14,7 +14,7 @@ $rowCom=$resGetUnique[0];
 }
 
 /* Custom scrollbar styling */
-.right::-webkit-scrollbar {
+.right-side::-webkit-scrollbar {
     width: 8px; /* Scrollbar width */
 }
 
@@ -23,12 +23,12 @@ $rowCom=$resGetUnique[0];
     border-radius: 10px; /* Rounded corners */
 }
 
-.right::-webkit-scrollbar-thumb {
+.right-side::-webkit-scrollbar-thumb {
     background: linear-gradient(90deg, #F8FAFB, #1C9CA0); /* Gradient color for scrollbar */
     border-radius: 10px; /* Rounded corners for scrollbar */
 }
 
-.right::-webkit-scrollbar-thumb:hover {
+.right-side::-webkit-scrollbar-thumb:hover {
     background: linear-gradient(90deg, #388e3c, #689f38); /* Darker gradient on hover */
 }
 
