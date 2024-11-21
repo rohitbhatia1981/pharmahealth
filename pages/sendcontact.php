@@ -66,8 +66,8 @@ $recaptcha=$_POST['g-recaptcha-response'];
 	
 	include_once PATH."mail/sendmail.php";	
 
-				$ToEmail=ADMIN_NOTIFICATION;
-				$FromEmail=ADMIN_FORM_EMAIL;
+				$ToEmail=ADMIN_FORM_EMAIL;
+				$FromEmail=ADMIN_NOTIFICATION;
 				$FromName=FROM_NAME;
 				
 				$SubjectSend="Inquiry Details";
