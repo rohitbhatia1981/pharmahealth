@@ -67,7 +67,7 @@ $recaptcha=$_POST['g-recaptcha-response'];
 	include_once PATH."mail/sendmail.php";	
 
 				$ToEmail="rohitbhatia1@gmail.com";
-				$FromEmail="info@hidemos.com";
+				$FromEmail=ADMIN_NOTIFICATION;
 				$FromName=FROM_NAME;
 				
 				$SubjectSend="Inquiry Details";
