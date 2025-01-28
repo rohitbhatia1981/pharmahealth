@@ -512,7 +512,7 @@ td[class="spechide"]
 	<tr><td height="20px"></td></tr>
     <tr>
 
-      <td style='text-align:left;color:#999;font-size:12px;font-weight:normal;line-height:20px;'><br><br>You are receiving this email because you are registered on pharma-health.co.uk. For any questions or comments please contact us at support@pharma-health.co.uk.<br><br></td>
+      <td style='text-align:left;color:#999;font-size:12px;font-weight:normal;line-height:20px;'><br><br>You are receiving this email because you are registered on pharmacinta.co.uk. For any questions or comments please contact us at support@pharmacinta.co.uk.<br><br></td>
 
     </tr>
 
@@ -538,7 +538,7 @@ td[class="spechide"]
 
                                         <p  style='text-align:left;color:#999;font-size:12px;font-weight:normal;line-height:20px;'>
 
-                                          <span style='font-weight:bold;'>Copyright &copy; 2023 pharma-health.co.uk. All Rights Reserved.</span>
+                                          <span style='font-weight:bold;'>Copyright &copy; 2025 pharmacinta.co.uk. All Rights Reserved.</span>
 
                                          
 
@@ -805,7 +805,7 @@ table.body .article {
               <table role="presentation" border="0" cellpadding="0" cellspacing="0" style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%">
                 <tr>
                   <td class="content-block" style="font-family: sans-serif; vertical-align: top; padding-bottom: 10px; padding-top: 10px; color: #999999; font-size: 12px; text-align: center;" valign="top" align="center">
-                    <span class="apple-link" style="color: #999999; font-size: 12px; text-align: center;">Copyright &copy; 2023 pharma-health.co.uk. All Rights Reserved</span>
+                    <span class="apple-link" style="color: #999999; font-size: 12px; text-align: center;">Copyright &copy; 2025 pharmacinta.co.uk. All Rights Reserved</span>
                     
                   </td>
                 </tr>
@@ -985,7 +985,7 @@ table.body .article {
               <table role="presentation" border="0" cellpadding="0" cellspacing="0" style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%">
                 <tr>
                   <td class="content-block" style="font-family: sans-serif; vertical-align: top; padding-bottom: 10px; padding-top: 10px; color: #999999; font-size: 12px; text-align: center;" valign="top" align="center">
-                    <span class="apple-link" style="color: #999999; font-size: 12px; text-align: center;">Copyright &copy; 2023 Pharma-health.co.uk All Rights Reserved</span>
+                    <span class="apple-link" style="color: #999999; font-size: 12px; text-align: center;">Copyright &copy; 2025 pharmacinta.co.uk All Rights Reserved</span>
                     
                   </td>
                 </tr>
